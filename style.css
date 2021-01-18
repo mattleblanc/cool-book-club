@@ -1,0 +1,257 @@
+header {
+  background-color: #263d36;
+  background-image: url("img/bg-07.jpg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 1.2;
+  max-width: none;
+  padding: 10vw 2em;
+  text-align: center;
+}
+
+header,
+main {
+  margin: 0 auto;
+  max-width: 50em;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+header h1 {
+  color: white;
+  font-size: 2.5em;
+  font-weight: 300;
+}
+
+header a {
+  border: 1px solid #e81c4f;
+  border-radius: 290486px;
+  color: white;
+  font-size: 0.6em;
+  letter-spacing: 0.2em;
+  padding: 1em 2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: none 200ms ease-out;
+  transition-property: color, background;
+}
+
+header a:hover {
+  background: #e81c4f;
+  color: white;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 50em;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  line-height: 1.5;
+  padding: 4em 1em;
+  color: #555;
+}
+
+h2 {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
+h1,
+h2,
+strong {
+  color: #333;
+}
+
+a {
+  color: #e81c4f;
+}
+
+apub {
+  vertical-align: text-bottom;
+  padding: 1em;
+  background: #f5f7f9;
+  color: #555;
+  -moz-font-smoothing: grayscale;
+  -webkit-font-smoothing: initial;
+  border-left: 3px solid #0b80c3;
+  overflow: auto;
+  /*white-space: pre-wrap;*/
+  display: block;
+}
+
+aconf {
+  vertical-align: text-bottom;
+  padding: 1em;
+  background: #f5f7f9;
+  color: #555;
+  -moz-font-smoothing: grayscale;
+  -webkit-font-smoothing: initial;
+  border-left: 3px solid #efda4e;
+  overflow: auto;
+  /*white-space: pre-wrap;*/
+  display: block;
+}
+
+anote {
+  vertical-align: text-bottom;
+  padding: 1em;
+  background: #f5f7f9;
+  color: #555;
+  -moz-font-smoothing: grayscale;
+  -webkit-font-smoothing: initial;
+  border-left: 3px solid #D351FF;
+  overflow: auto;
+  white-space: pre-wrap;
+  display: block;
+}
+
+pub {
+  vertical-align: text-bottom;
+  padding: 1em;
+  background: #f5f7f9;
+  color: #555;
+  -moz-font-smoothing: grayscale;
+  -webkit-font-smoothing: initial;
+  border-left: 3px solid #D351FF;
+  overflow: auto;
+  /*white-space: pre-wrap;*/
+  display: block;
+}
+
+
+talk {
+      vertical-align: text-bottom;
+      padding: 1.0em;
+      background: #f5f7f9;
+      color: #555;
+      -moz-font-smoothing: grayscale;
+      -webkit-font-smoothing: initial;
+      border-left: 3px solid #ffad35;
+      overflow: auto;
+      /*white-space: pre-wrap;*/
+      display: block;
+}
+
+poster {
+      vertical-align: text-bottom;
+      padding: 1.0em;
+      background: #f5f7f9;
+      color: #555;
+      -moz-font-smoothing: grayscale;
+      -webkit-font-smoothing: initial;
+      border-left: 3px solid #36bdbd;
+      overflow: auto;
+      /*white-space: pre-wrap;*/
+      display: block;
+}
+
+table {
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+}
+
+td {
+  height: 50px;
+}
+
+th {
+  background-color: #f5f7f9;
+  text-align: left;
+}
+
+footer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 4em;
+  text-align: center;
+}
+
+details {
+    /*padding: 2px;*/
+    background-color: #f5f7f9;
+    /*margin-bottom: 0px;*/
+    /*border-left: 2px solid #0b80c3;*/
+}
+
+details.apaper {
+      vertical-align: text-bottom;
+      padding: 1.0em;
+      background: #f5f7f9;
+      color: #555;
+      -moz-font-smoothing: grayscale;
+      -webkit-font-smoothing: initial;
+      border-left: 3px solid #0b80c3;
+      overflow: auto;
+      /*white-space: pre-wrap;*/
+      display: block;
+}
+
+details.aconf {
+      vertical-align: text-bottom;
+      padding: 1.0em;
+      background: #f5f7f9;
+      color: #555;
+      -moz-font-smoothing: grayscale;
+      -webkit-font-smoothing: initial;
+      border-left: 3px solid #efda4e;
+      overflow: auto;
+      /*white-space: pre-wrap;*/
+      display: block;
+}
+
+details.apub {
+      vertical-align: text-bottom;
+      padding: 1.0em;
+      background: #f5f7f9;
+      color: #555;
+      -moz-font-smoothing: grayscale;
+      -webkit-font-smoothing: initial;
+      border-left: 3px solid #D351FF;
+      overflow: auto;
+      /*white-space: pre-wrap;*/
+      display: block;
+}
+
+details.other {
+      vertical-align: text-bottom;
+      padding: 1.0em;
+      background: #f5f7f9;
+      color: #555;
+      -moz-font-smoothing: grayscale;
+      -webkit-font-smoothing: initial;
+      border-left: 3px solid #5dbe5d;
+      overflow: auto;
+      /*white-space: pre-wrap;*/
+      display: block;
+}
+
+details.talk {
+      vertical-align: text-bottom;
+      padding: 1.0em;
+      background: #f5f7f9;
+      color: #555;
+      -moz-font-smoothing: grayscale;
+      -webkit-font-smoothing: initial;
+      border-left: 3px solid #ffad35;
+      overflow: auto;
+      /*white-space: pre-wrap;*/
+      display: block;
+}
+
+details.poster {
+      vertical-align: text-bottom;
+      padding: 1.0em;
+      background: #f5f7f9;
+      color: #555;
+      -moz-font-smoothing: grayscale;
+      -webkit-font-smoothing: initial;
+      border-left: 3px solid #36bdbd;
+      overflow: auto;
+      /*white-space: pre-wrap;*/
+      display: block;
+}
