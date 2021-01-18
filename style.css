@@ -67,7 +67,8 @@ strong {
 }
 
 a {
-  color: #00FFFF;
+    color: #00FFFF;
+    hover: #FF00FF;
 }
 
 table {
