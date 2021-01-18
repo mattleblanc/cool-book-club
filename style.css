@@ -68,7 +68,10 @@ strong {
 
 a {
     color: #00FFFF;
-    hover: #FF00FF;
+}
+
+a:hover {
+    color: #FF00FF;
 }
 
 table {
