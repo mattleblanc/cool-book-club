@@ -52,6 +52,7 @@ body {
   line-height: 1.5;
   padding: 4em 1em;
   color: #555;
+  background-image: url("bgstar45.jpg");
 }
 
 h2 {
@@ -62,90 +63,11 @@ h2 {
 h1,
 h2,
 strong {
-  color: #333;
+    color: #FFF;
 }
 
 a {
-  color: #e81c4f;
-}
-
-apub {
-  vertical-align: text-bottom;
-  padding: 1em;
-  background: #f5f7f9;
-  color: #555;
-  -moz-font-smoothing: grayscale;
-  -webkit-font-smoothing: initial;
-  border-left: 3px solid #0b80c3;
-  overflow: auto;
-  /*white-space: pre-wrap;*/
-  display: block;
-}
-
-aconf {
-  vertical-align: text-bottom;
-  padding: 1em;
-  background: #f5f7f9;
-  color: #555;
-  -moz-font-smoothing: grayscale;
-  -webkit-font-smoothing: initial;
-  border-left: 3px solid #efda4e;
-  overflow: auto;
-  /*white-space: pre-wrap;*/
-  display: block;
-}
-
-anote {
-  vertical-align: text-bottom;
-  padding: 1em;
-  background: #f5f7f9;
-  color: #555;
-  -moz-font-smoothing: grayscale;
-  -webkit-font-smoothing: initial;
-  border-left: 3px solid #D351FF;
-  overflow: auto;
-  white-space: pre-wrap;
-  display: block;
-}
-
-pub {
-  vertical-align: text-bottom;
-  padding: 1em;
-  background: #f5f7f9;
-  color: #555;
-  -moz-font-smoothing: grayscale;
-  -webkit-font-smoothing: initial;
-  border-left: 3px solid #D351FF;
-  overflow: auto;
-  /*white-space: pre-wrap;*/
-  display: block;
-}
-
-
-talk {
-      vertical-align: text-bottom;
-      padding: 1.0em;
-      background: #f5f7f9;
-      color: #555;
-      -moz-font-smoothing: grayscale;
-      -webkit-font-smoothing: initial;
-      border-left: 3px solid #ffad35;
-      overflow: auto;
-      /*white-space: pre-wrap;*/
-      display: block;
-}
-
-poster {
-      vertical-align: text-bottom;
-      padding: 1.0em;
-      background: #f5f7f9;
-      color: #555;
-      -moz-font-smoothing: grayscale;
-      -webkit-font-smoothing: initial;
-      border-left: 3px solid #36bdbd;
-      overflow: auto;
-      /*white-space: pre-wrap;*/
-      display: block;
+  color: #0000FF;
 }
 
 table {
@@ -169,89 +91,4 @@ footer {
   justify-content: center;
   margin-top: 4em;
   text-align: center;
-}
-
-details {
-    /*padding: 2px;*/
-    background-color: #f5f7f9;
-    /*margin-bottom: 0px;*/
-    /*border-left: 2px solid #0b80c3;*/
-}
-
-details.apaper {
-      vertical-align: text-bottom;
-      padding: 1.0em;
-      background: #f5f7f9;
-      color: #555;
-      -moz-font-smoothing: grayscale;
-      -webkit-font-smoothing: initial;
-      border-left: 3px solid #0b80c3;
-      overflow: auto;
-      /*white-space: pre-wrap;*/
-      display: block;
-}
-
-details.aconf {
-      vertical-align: text-bottom;
-      padding: 1.0em;
-      background: #f5f7f9;
-      color: #555;
-      -moz-font-smoothing: grayscale;
-      -webkit-font-smoothing: initial;
-      border-left: 3px solid #efda4e;
-      overflow: auto;
-      /*white-space: pre-wrap;*/
-      display: block;
-}
-
-details.apub {
-      vertical-align: text-bottom;
-      padding: 1.0em;
-      background: #f5f7f9;
-      color: #555;
-      -moz-font-smoothing: grayscale;
-      -webkit-font-smoothing: initial;
-      border-left: 3px solid #D351FF;
-      overflow: auto;
-      /*white-space: pre-wrap;*/
-      display: block;
-}
-
-details.other {
-      vertical-align: text-bottom;
-      padding: 1.0em;
-      background: #f5f7f9;
-      color: #555;
-      -moz-font-smoothing: grayscale;
-      -webkit-font-smoothing: initial;
-      border-left: 3px solid #5dbe5d;
-      overflow: auto;
-      /*white-space: pre-wrap;*/
-      display: block;
-}
-
-details.talk {
-      vertical-align: text-bottom;
-      padding: 1.0em;
-      background: #f5f7f9;
-      color: #555;
-      -moz-font-smoothing: grayscale;
-      -webkit-font-smoothing: initial;
-      border-left: 3px solid #ffad35;
-      overflow: auto;
-      /*white-space: pre-wrap;*/
-      display: block;
-}
-
-details.poster {
-      vertical-align: text-bottom;
-      padding: 1.0em;
-      background: #f5f7f9;
-      color: #555;
-      -moz-font-smoothing: grayscale;
-      -webkit-font-smoothing: initial;
-      border-left: 3px solid #36bdbd;
-      overflow: auto;
-      /*white-space: pre-wrap;*/
-      display: block;
 }
